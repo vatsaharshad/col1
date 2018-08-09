@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">col</string>
+    <string-array name="crops">
+        <item>Rice</item>
+        <item>Jowar</item>
+        <item>Sugarcane</item>
+        <item>Wheat</item>
+    </string-array>
+</resources>
