@@ -10,9 +10,7 @@
         android:id="@+id/button"
         android:layout_width="247dp"
         android:layout_height="46dp"
-        android:layout_marginBottom="20dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginStart="32dp"
+        android:layout_marginBottom="8dp"
         android:text="Send"
         app:layout_constraintBottom_toTopOf="@+id/out"
         app:layout_constraintStart_toStartOf="@+id/out" />
@@ -90,9 +88,14 @@
 
     <Spinner
         android:id="@+id/spinner1"
-        android:layout_width="219dp"
-        android:layout_height="34dp"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="188dp" />
+        android:layout_width="217dp"
+        android:layout_height="31dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="344dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginStart="52dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
